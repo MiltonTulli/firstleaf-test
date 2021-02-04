@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error> Should match snapshot 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(Paper))
+    className="makeStyles-paper-2"
+  >
+    <WithStyles(ForwardRef(Typography))
+      color="error"
+      data-testid="title"
+      variant="h4"
+    >
+      ERROR_TITLE
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Divider)) />
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-message-3"
+      color="error"
+      data-testid="message"
+      variant="body2"
+    >
+      MESSAGE
+    </WithStyles(ForwardRef(Typography))>
+    <div>
+      <h1
+        data-testid="render"
+      >
+        hello
+      </h1>
+    </div>
+  </WithStyles(ForwardRef(Paper))>
+</div>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout> Should match snapshot 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(AppBar))
+    className="makeStyles-appBar-2"
+    position="fixed"
+  >
+    <WithStyles(ForwardRef(Toolbar))>
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        className="makeStyles-container-3"
+        container={true}
+        justify="space-between"
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+        >
+          <Link
+            className="makeStyles-link-8"
+            to="/app"
+          >
+            <WithStyles(ForwardRef(Typography))
+              variant="h6"
+            >
+              Countries
+            </WithStyles(ForwardRef(Typography))>
+          </Link>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+        >
+          <SearchInput
+            filter={false}
+            handleSearch={[MockFunction]}
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <main
+    className="makeStyles-content-6"
+  />
+</div>
+`;

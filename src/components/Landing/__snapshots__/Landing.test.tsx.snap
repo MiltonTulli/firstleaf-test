@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Landing> Should match snapshot 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(Typography))
+    className="makeStyles-header-2"
+    variant="h3"
+  >
+    FirstLeaf Test
+  </WithStyles(ForwardRef(Typography))>
+  <Link
+    className="makeStyles-link-3"
+    to="/app"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-header-2"
+      variant="h6"
+    >
+      Start
+    </WithStyles(ForwardRef(Typography))>
+  </Link>
+</div>
+`;

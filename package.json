@@ -1,0 +1,120 @@
+{
+  "name": "firstleaf-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.22",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "husky": "^4.2.3",
+    "immutability-helper": "^3.1.1",
+    "lint-staged": "^10.0.7",
+    "moment": "^2.29.1",
+    "querystring": "^0.2.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-image-gallery": "^1.0.7",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.0",
+    "react-toastify": "^6.0.6",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "test:c": "yarn test --detectOpenHandles --watchAll=false --coverage --verbose"
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.3.0",
+    "@types/enzyme": "^3.10.5",
+    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "@typescript-eslint/parser": "^2.19.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.5.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "fetch-mock": "^9.11.0",
+    "nock": "^13.0.7",
+    "node-fetch": "^2.6.1",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.13.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.4",
+    "ts-jest": "^25.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier — write"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/index.tsx",
+      "!src/serviceWorker.ts",
+      "!**/node_modules/**",
+      "!src/components/index.ts",
+      "!src/containers/index.ts",
+      "!src/interfaces/index.ts"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      }
+    },
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text",
+      "text-summary"
+    ]
+  },
+  "setupFiles": [
+    "<rootDir>/src/setupTests.js"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

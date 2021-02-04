@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound> Should match snapshot 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <h4
+    className="MuiTypography-root makeStyles-text-2 MuiTypography-h4"
+  >
+    Ups!, Page Not Found
+  </h4>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Go to App
+    </span>
+  </button>
+</div>
+`;

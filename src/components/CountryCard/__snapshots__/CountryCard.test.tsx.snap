@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountryCard> Should match snapshot 1`] = `
+<div
+  className="makeStyles-root-1"
+  data-testid="card"
+  onClick={[Function]}
+>
+  <WithStyles(ForwardRef(Card))
+    className="makeStyles-root-1"
+    elevation={10}
+  >
+    <WithStyles(ForwardRef(CardActionArea))>
+      <WithStyles(ForwardRef(CardContent))>
+        <div
+          className="makeStyles-contentWrapper-2"
+        >
+          <img
+            alt="Afghanistan flag"
+            className="makeStyles-flag-3"
+            src="https://restcountries.eu/data/afg.svg"
+          />
+          <WithStyles(ForwardRef(Typography))
+            align="center"
+            component="h1"
+            gutterBottom={true}
+            variant="body1"
+          >
+            Afghanistan
+          </WithStyles(ForwardRef(Typography))>
+        </div>
+      </WithStyles(ForwardRef(CardContent))>
+    </WithStyles(ForwardRef(CardActionArea))>
+  </WithStyles(ForwardRef(Card))>
+</div>
+`;

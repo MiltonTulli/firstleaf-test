@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main> Should match snapshot 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+   
+  <div
+    className="makeStyles-root-6"
+    data-testid="card"
+    onClick={[Function]}
+  >
+    <div
+      className="MuiPaper-root MuiCard-root makeStyles-root-6 MuiPaper-elevation10 MuiPaper-rounded"
+    >
+      <button
+        className="MuiButtonBase-root MuiCardActionArea-root"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <div
+          className="MuiCardContent-root"
+        >
+          <div
+            className="makeStyles-contentWrapper-7"
+          >
+            <img
+              alt="Afghanistan flag"
+              className="makeStyles-flag-8"
+              src="https://restcountries.eu/data/afg.svg"
+            />
+            <h1
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom MuiTypography-alignCenter"
+            >
+              Afghanistan
+            </h1>
+          </div>
+        </div>
+        <span
+          className="MuiCardActionArea-focusHighlight"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="makeStyles-root-6"
+    data-testid="card"
+    onClick={[Function]}
+  >
+    <div
+      className="MuiPaper-root MuiCard-root makeStyles-root-6 MuiPaper-elevation10 MuiPaper-rounded"
+    >
+      <button
+        className="MuiButtonBase-root MuiCardActionArea-root"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <div
+          className="MuiCardContent-root"
+        >
+          <div
+            className="makeStyles-contentWrapper-7"
+          >
+            <img
+              alt="Åland Islands flag"
+              className="makeStyles-flag-8"
+              src="https://restcountries.eu/data/ala.svg"
+            />
+            <h1
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom MuiTypography-alignCenter"
+            >
+              Åland Islands
+            </h1>
+          </div>
+        </div>
+        <span
+          className="MuiCardActionArea-focusHighlight"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="makeStyles-root-6"
+    data-testid="card"
+    onClick={[Function]}
+  >
+    <div
+      className="MuiPaper-root MuiCard-root makeStyles-root-6 MuiPaper-elevation10 MuiPaper-rounded"
+    >
+      <button
+        className="MuiButtonBase-root MuiCardActionArea-root"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <div
+          className="MuiCardContent-root"
+        >
+          <div
+            className="makeStyles-contentWrapper-7"
+          >
+            <img
+              alt="Albania flag"
+              className="makeStyles-flag-8"
+              src="https://restcountries.eu/data/alb.svg"
+            />
+            <h1
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom MuiTypography-alignCenter"
+            >
+              Albania
+            </h1>
+          </div>
+        </div>
+        <span
+          className="MuiCardActionArea-focusHighlight"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="makeStyles-root-6"
+    data-testid="card"
+    onClick={[Function]}
+  >
+    <div
+      className="MuiPaper-root MuiCard-root makeStyles-root-6 MuiPaper-elevation10 MuiPaper-rounded"
+    >
+      <button
+        className="MuiButtonBase-root MuiCardActionArea-root"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <div
+          className="MuiCardContent-root"
+        >
+          <div
+            className="makeStyles-contentWrapper-7"
+          >
+            <img
+              alt="Algeria flag"
+              className="makeStyles-flag-8"
+              src="https://restcountries.eu/data/dza.svg"
+            />
+            <h1
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom MuiTypography-alignCenter"
+            >
+              Algeria
+            </h1>
+          </div>
+        </div>
+        <span
+          className="MuiCardActionArea-focusHighlight"
+        />
+      </button>
+    </div>
+  </div>
+   
+</div>
+`;
