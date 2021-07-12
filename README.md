@@ -4,7 +4,7 @@
 
 [![Jest Functions](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/coverage/badge-functions.svg)](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/coverage/badge-functions.svg)
 
-[![Jest Lines](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/coverage/badge-lines.svg)](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/coverage/badge-lines.svg)
+[![Jest Lines](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/coverage/badge-lines.svg)]
 
 # Firstleaf - React js test
 
