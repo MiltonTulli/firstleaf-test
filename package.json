@@ -38,8 +38,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "test:c": "yarn test --detectOpenHandles --watchAll=false --coverage --verbose",
-    "test:badges": "jest-coverage-badges",
-    "test:badges:output": "jest-coverage-badges --output \"./screenshots\""
+    "test:badges": "jest-coverage-badges --output \"./screenshots\""
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^3.3.0",

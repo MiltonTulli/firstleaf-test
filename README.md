@@ -1,10 +1,10 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d75d7b01-86f5-481f-87ca-d72f731979b0/deploy-status)](https://app.netlify.com/sites/firstleaf-test/deploys)
 
-[![Jest Branches](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/coverage/badge-branches.svg)](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/coverage/badge-branches.svg)
+[![Jest Branches](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/screenshots/badge-branches.svg)](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/screenshots/badge-branches.svg)
 
-[![Jest Functions](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/coverage/badge-functions.svg)](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/coverage/badge-functions.svg)
+[![Jest Functions](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/screenshots/badge-functions.svg)](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/screenshots/badge-functions.svg)
 
-[![Jest Lines](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/coverage/badge-lines.svg)]
+[![Jest Lines](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/screenshots/badge-lines.svg)](https://github.com/MiltonTulli/firstleaf-test/blob/jest-badges/screenshots/badge-lines.svg)
 
 # Firstleaf - React js test
 
