@@ -193,7 +193,7 @@ exports[`<CountryDetail> Should match snapshot 1`] = `
     >
       <iframe
         className="makeStyles-map-4"
-        src="https://www.google.com/maps/embed/v1/place?q=33,65&key=AIzaSyBx0MPM-levclO7Hl5NHSczvHUb6gLk0b4&zoom=4"
+        src="https://www.google.com/maps/embed/v1/place?q=33,65&key=SET-UP-GOOGLE-API-KEY&zoom=4"
         title="Afghanistan map"
       />
     </WithStyles(ForwardRef(Grid))>

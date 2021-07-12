@@ -37,7 +37,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "test:c": "yarn test --detectOpenHandles --watchAll=false --coverage --verbose"
+    "test:c": "yarn test --detectOpenHandles --watchAll=false --coverage --verbose",
+    "test:badges": "yarn run test:c  && jest-coverage-badges"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^3.3.0",
@@ -56,6 +57,7 @@
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "fetch-mock": "^9.11.0",
+    "jest-coverage-badges": "^1.1.2",
     "nock": "^13.0.7",
     "node-fetch": "^2.6.1",
     "prettier": "^1.19.1",
@@ -97,9 +99,9 @@
       "enzyme-to-json/serializer"
     ],
     "coverageReporters": [
-      "lcov",
+      "json-summary",
       "text",
-      "text-summary"
+      "lcov"
     ]
   },
   "setupFiles": [
