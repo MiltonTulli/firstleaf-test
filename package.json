@@ -37,7 +37,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "test:c": "yarn test --detectOpenHandles --watchAll=false --coverage --verbose",
+    "test:c": "yarn test --detectOpenHandles --watchAll=false --coverage --verbose && yarn run test:badges",
     "test:badges": "jest-coverage-badges --output \"./screenshots\""
   },
   "devDependencies": {
@@ -74,9 +74,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier — write",
-      "yarn run test:c",
-      "yarn run test:badges"
+      "prettier — write"
     ]
   },
   "jest": {

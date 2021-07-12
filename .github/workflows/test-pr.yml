@@ -41,6 +41,3 @@ jobs:
 
       - name: Run Jest Tests
         run: yarn run test:c
-
-      - name: Jest Badges
-        run: yarn run test:badges

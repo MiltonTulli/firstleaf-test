@@ -10,7 +10,7 @@ exports[`<Error> Should match snapshot 1`] = `
     <WithStyles(ForwardRef(Typography))
       color="error"
       data-testid="title"
-      variant="h4"
+      variant="h3"
     >
       ERROR_TITLE
     </WithStyles(ForwardRef(Typography))>
